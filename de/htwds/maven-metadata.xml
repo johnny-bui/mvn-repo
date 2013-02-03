@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>objectmacro-plugin</name>
+      <prefix>objectmacro</prefix>
+      <artifactId>objectmacro-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
