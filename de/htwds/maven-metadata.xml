@@ -6,5 +6,10 @@
       <prefix>objectmacro</prefix>
       <artifactId>objectmacro-maven-plugin</artifactId>
     </plugin>
+    <plugin>
+      <name>sablecc-maven-plugin</name>
+      <prefix>sablecc</prefix>
+      <artifactId>sablecc-maven-plugin</artifactId>
+    </plugin>
   </plugins>
 </metadata>
