@@ -5,30 +5,40 @@
   <version>2.0-beta.1-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20130223.225525</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20130225.000456</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20130223225525</lastUpdated>
+    <lastUpdated>20130225000456</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>2.0-beta.1-20130223.225525-2</value>
-        <updated>20130223225525</updated>
+        <value>2.0-beta.1-20130225.000456-3</value>
+        <updated>20130225000456</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>2.0-beta.1-20130223.225525-2</value>
-        <updated>20130223225525</updated>
+        <value>2.0-beta.1-20130225.000456-3</value>
+        <updated>20130225000456</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar.asc</extension>
-        <value>2.0-beta.1-20130223.225525-2</value>
-        <updated>20130223225525</updated>
+        <value>2.0-beta.1-20130225.000456-3</value>
+        <updated>20130225000456</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom.asc</extension>
-        <value>2.0-beta.1-20130223.225525-2</value>
-        <updated>20130223225525</updated>
+        <value>2.0-beta.1-20130225.000456-3</value>
+        <updated>20130225000456</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar.asc.asc</extension>
+        <value>2.0-beta.1-20130225.000456-3</value>
+        <updated>20130225000456</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom.asc.asc</extension>
+        <value>2.0-beta.1-20130225.000456-3</value>
+        <updated>20130225000456</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
