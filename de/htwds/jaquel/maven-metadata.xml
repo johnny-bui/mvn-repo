@@ -3,14 +3,16 @@
   <groupId>de.htwds</groupId>
   <artifactId>jaquel</artifactId>
   <versioning>
-    <release>1.0-beta.6</release>
+    <release>1.0-beta.6.4</release>
     <versions>
       <version>1.0-beta.1</version>
       <version>1.0-beta.2</version>
       <version>1.0-beta.3</version>
       <version>1.0-beta.4</version>
       <version>1.0-beta.6</version>
+      <version>1.0-beta.6.4-SNAPSHOT</version>
+      <version>1.0-beta.6.4</version>
     </versions>
-    <lastUpdated>20130215191704</lastUpdated>
+    <lastUpdated>20130326172129</lastUpdated>
   </versioning>
 </metadata>
