@@ -16,7 +16,7 @@ Add this repo in to your `repositories`-Tag in `~/.m2/settings.xml` to use my re
     </repository>
 
 
-To use the maven pluins in my repo:
+To use the maven plugins in my repo:
 
     <pluginRepository>
       <id>com.github.verylazyboy</id>
