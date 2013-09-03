@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>de.htwds</groupId>
+  <artifactId>sablecc-plugin-user-test</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20130903150649</lastUpdated>
+  </versioning>
+</metadata>
