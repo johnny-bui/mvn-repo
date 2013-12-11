@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.verylazyboy</groupId>
+  <artifactId>sablecc-maven-port</artifactId>
+  <version>3.7</version>
+  <versioning>
+    <versions>
+      <version>3.7</version>
+    </versions>
+    <lastUpdated>20131211092014</lastUpdated>
+  </versioning>
+</metadata>
