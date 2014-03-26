@@ -1,0 +1,93 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.sf.sdedit</groupId>
+		<artifactId>sdedit</artifactId>
+		<version>4.01</version>
+	</parent>
+
+	<groupId>net.sf.sdedit</groupId>
+	<artifactId>sdedit-taglet</artifactId>
+	<version>4.01-java8-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>sdedit-taglet</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<profiles>
+		<profile>
+			<id>linux_profile</id>
+			<activation>
+				<os>
+					<family>Linux</family>
+				</os>
+			</activation>
+			<properties>
+				<toolsjar>${java.home}/../lib/tools.jar</toolsjar>
+			</properties>
+		</profile>
+		<profile>
+			<id>windows_profile</id>
+			<activation>
+				<os>
+					<family>Windows</family>
+				</os>
+			</activation>
+			<properties>
+				<toolsjar>${java.home}/../lib/tools.jar</toolsjar>
+			</properties>
+		</profile>
+		<profile>
+			<id>osx_profile</id>
+			<activation>
+				<os>
+					<family>mac</family>
+				</os>
+			</activation>
+			<properties>
+				<toolsjar>${java.home}/../Classes/classes.jar</toolsjar>
+			</properties>
+		</profile>
+	</profiles>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+					<optimize>true</optimize>
+					<debug>false</debug>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build> 
+	<dependencies>
+		<dependency>
+			<groupId>net.sf.sdedit</groupId>
+			<artifactId>sdedit-core</artifactId>
+			<version>4.01</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.sun</groupId>
+			<artifactId>tools</artifactId>
+			<scope>system</scope>
+			<version>1.7</version>
+			<systemPath>${toolsjar}</systemPath>
+		</dependency>
+	</dependencies>
+</project>

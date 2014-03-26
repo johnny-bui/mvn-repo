@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.sf.sdedit</groupId>
+  <artifactId>sdedit-taglet</artifactId>
+  <versioning>
+    <versions>
+      <version>4.01-java8-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20140326094258</lastUpdated>
+  </versioning>
+</metadata>
